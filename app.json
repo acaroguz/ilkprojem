@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "EnglishQuest",
+    "name": "acar lingo",
     "slug": "EnglishQuest",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,15 +10,20 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.acarsoft.englishquest",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#0047AB",
+        "foregroundImage": "./assets/icon.png"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "32937078-100b-42d4-9930-8322cad42a5a"
+      }
+    },
+    "owner": "odalbt-soft"
   }
 }
